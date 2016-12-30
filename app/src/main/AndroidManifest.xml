@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sbs.administrator.sribalajisociety">
+
+    <uses-permission android:name="com.sbs.administrator.sribalajisociety.name.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/appicon1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".AdmissionProcedure"
+            android:label="@string/title_activity_admission_procedure"></activity>
+        <activity
+            android:name=".SelectionProcedure"
+            android:label="@string/title_activity_selection_procedure"></activity>
+        <activity
+            android:name=".Eligibility"
+            android:label="@string/title_activity_eligibility"></activity>
+        <activity
+            android:name=".Gdpicentres"
+            android:label="@string/title_activity_gdpicentres"></activity>
+        <activity
+            android:name=".FeeStructure"
+            android:label="@string/title_activity_fee_structure"></activity>
+        <activity
+            android:name=".FAQSActivity"
+            android:label="@string/title_activity_faqs"></activity>
+        <activity
+            android:name=".AboutSbsActivity"
+            android:label="@string/title_activity_about_sbs"></activity>
+        <activity
+            android:name=".WhySBS"
+            android:label="@string/title_activity_why_sbs"></activity>
+        <activity
+            android:name=".Whyenroll"
+            android:label="@string/title_activity_whyenroll"></activity>
+        <activity
+            android:name=".Govtrecognized"
+            android:label="@string/title_activity_govtrecognized"></activity>
+        <activity
+            android:name=".Worldclassinfra"
+            android:label="@string/title_activity_worldclassinfra"></activity>
+        <activity
+            android:name=".AIUEquivalence"
+            android:label="@string/title_activity_aiuequivalence"></activity>
+        <activity
+            android:name=".Campusplacement"
+            android:label="@string/title_activity_campusplacement"></activity>
+        <activity
+            android:name=".Principaldates"
+            android:label="@string/title_activity_principaldates"></activity>
+        <activity
+            android:name=".Youtubeex"
+            android:label="@string/title_activity_youtubeex"></activity>
+        <activity
+            android:name=".Facebooksbs"
+            android:label="@string/title_activity_facebooksbs"></activity>
+        <activity
+            android:name=".ReachUs"
+            android:label="@string/title_activity_reach_us"></activity>
+        <activity
+            android:name=".Loginsbs"
+            android:label="@string/title_activity_loginsbs"></activity>
+        <activity
+            android:name=".Courses"
+            android:label="@string/title_activity_courses"></activity>
+        <activity
+            android:name=".ApplicationForm"
+            android:label="@string/title_activity_application_form"></activity>
+        <activity
+            android:name=".ProspectUs"
+            android:label="@string/title_activity_prospect_us"></activity>
+        <activity
+            android:name=".AicteApproval"
+            android:label="@string/title_activity_aicte_approval"></activity>
+        <activity
+            android:name=".AndroidGridLayout"
+            android:label="@string/title_activity_android_grid_layout"></activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Registration"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MapsActivityDemo"
+            android:label="@string/title_activity_maps_activity_demo">
+
+
+        </activity>
+        <activity android:name=".LoginActivity"
+                   android:label="Login"> </activity>
+        <activity android:name=".ForgotActivity"
+            android:label="Forgot"> </activity>
+    </application>
+
+</manifest>

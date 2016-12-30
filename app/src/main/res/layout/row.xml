@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/dimen_ten_dp"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:textSize="@dimen/dimen_fourteen_sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSubTitle"
+        android:textSize="@dimen/dimen_twelve_sp"
+        android:layout_below="@+id/txtTitle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPhone"
+        android:textSize="@dimen/dimen_twelve_sp"
+        android:layout_below="@+id/txtSubTitle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFax"
+        android:textSize="@dimen/dimen_twelve_sp"
+        android:layout_below="@+id/txtPhone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:textSize="@dimen/dimen_twelve_sp"
+        android:layout_below="@+id/txtFax" />
+</LinearLayout>

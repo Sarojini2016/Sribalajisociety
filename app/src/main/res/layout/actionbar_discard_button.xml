@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_discard"
+    android:layout_width="@dimen/dimen_zero_dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@drawable/action_selector">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="@dimen/dimen_twenty_dp"
+        android:drawableLeft="@drawable/ic_action_about"
+        android:drawablePadding="@dimen/dimen_eight_dp"
+        android:gravity="center_vertical"
+        android:text="cancel" />
+</FrameLayout>

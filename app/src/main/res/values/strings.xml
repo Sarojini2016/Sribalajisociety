@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sri Balaji Society</string>
+    <string name="hint_email">Email Id</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_fname">First Name</string>
+    <string name="hint_lname">Last Name</string>
+    <string name="hint_name">Username</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_forgot">RECOVERY PASSWORD</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login Me.</string>
+    <string name="btn_link_to_forgot">Forgot your password?</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_forgot">Forgot Password</string>
+
+
+    <string name="google_app_id">AIzaSyDdqUXijp3z_WQ1GUVFyZER_xyWJoRHczk</string>
+    <string name="title_activity_maps">Google Map</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admission_procedure">Admission Procedure</string>
+    <string name="title_activity_selection_procedure">Selection Procedure</string>
+    <string name="title_activity_eligibility">Eligibility</string>
+    <string name="title_activity_gdpicentres">Gdpi Centres</string>
+    <string name="title_activity_fee_structure">Fee Structure</string>
+    <string name="title_activity_faqs">FAQS</string>
+    <string name="title_activity_about_sbs">About Sbs</string>
+    <string name="title_activity_why_sbs">Why SBS?</string>
+    <string name="title_activity_whyenroll">Why Enroll?</string>
+    <string name="title_activity_govtrecognized">Govt. Recognized</string>
+    <string name="title_activity_worldclassinfra">Infrastructure</string>
+    <string name="title_activity_aiuequivalence">AIU Equivalence</string>
+    <string name="title_activity_campusplacement">Campus Placement</string>
+    <string name="title_activity_principaldates">Principal Dates</string>
+    <string name="title_activity_youtubeex">SBS Videos</string>
+    <string name="title_activity_facebooksbs">Facebook</string>
+    <string name="title_activity_splash_screen">Splash Screen</string>
+    <string name="title_activity_reach_us">Reach Us</string>
+    <string name="title_activity_loginsbs">Login</string>
+    <string name="title_activity_courses">Courses Offered</string>
+    <string name="title_activity_application_form">Application Form</string>
+    <string name="title_activity_prospect_us">Prospectus</string>
+    <string name="title_activity_aicte_approval">Aicte Approval</string>
+    <string name="title_activity_android_grid_layout">Home</string>
+    <string name="forgot"><u>Forgot Password?</u></string>
+    <string name="reg"><u>Register here</u></string>
+    <string name="password">Password</string>
+    <string name="usernameoremailid">Email Id</string>
+    <string name="title_activity_maps_activity_demo">Campus Map</string>
+</resources>
